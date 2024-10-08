@@ -72,19 +72,27 @@ h2 {
 p, ul {
     color: #555;
     text-align: justify;
+    padding: 10px;
 }
  
-.contact image {
-    list-style: none;
 
+.contact ul {
+    list-style: none;
 }
 
-.contact ul{
+.contact ul li{
     background-color: #f0f0f0;
     padding: 10px;
     margin-bottom: 8px;
     border-radius: 8px;
+    display: flex;
+    align-items: center;
 }
+
+.contact ul li img {
+    margin-right: 5px; 
+}
+
 
 .timeline {
     padding-left: 20px;
@@ -135,7 +143,7 @@ p, ul {
 }
 
 
-footer {
+/* footer {
     text-align: center;
     margin-top: 30px;
 }
@@ -152,7 +160,7 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
+} */
 
 /* Responsive design */
 @media (max-width: 768px) {
@@ -165,4 +173,4 @@ footer a:hover {
       width: 100%;
       margin-right: 0;
     }
-  }
+}
